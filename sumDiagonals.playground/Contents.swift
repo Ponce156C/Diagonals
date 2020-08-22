@@ -41,6 +41,12 @@ class Diagonal {
 }
 
 let diagonal = Diagonal()
-
+//De estamanera se puede ingresar la matriz que se deseé
+diagonal.matrix = [
+    [5,2,3],
+    [2,3,4],
+    [3,4,5]
+]
 diagonal.calculediagonal()
-print(diagonal.testingResults(1+3+5+10+9, 5+6+5+5+5))
+//Para poder probar si los resultados son correctos se puede utilizar esta función e ingresar el resultado esperado de manera manual
+print(diagonal.testingResults(5+3+5, 3+3+3))
