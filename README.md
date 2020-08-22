@@ -6,7 +6,6 @@ pequeña prueba para demostrar conocimientos
 _Involuca conocimientos de programación._
 
 ### Requerimientos 📋
- Markup : 
  * Obtener la sumatoria de la diagonal principal
  * Obtener la sumatoria de la diagonal invertida
  * Comparar las diferentes sumatorias y comparar
