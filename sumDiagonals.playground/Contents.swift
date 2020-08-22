@@ -28,9 +28,19 @@ class Diagonal {
             print("La matriz no es cuadrada")
         }
     }
+    
+    func testingResults(_ mainDiagonal: Int,_ invertedDiagonal: Int) -> String {
+//        let mainDiagonal = 5+3+5
+//        let invertedDiagonal = 3+3+3
+        if self.mainDiagonalSum == mainDiagonal && self.invertedDiagonalSum == invertedDiagonal {
+            return "Ok"
+        }else {
+            return "faild"
+        }
+    }
 }
 
 let diagonal = Diagonal()
 
 diagonal.calculediagonal()
-
+print(diagonal.testingResults(1+3+5+10+9, 5+6+5+5+5))
